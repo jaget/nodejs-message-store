@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/jaget/nodejs-message-store/issues"
   },
-  "homepage": "https://github.com/jaget/nodejs-message-store#readme"
+  "homepage": "https://github.com/jaget/nodejs-message-store#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^3.0.1",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2"
+  }
 }
