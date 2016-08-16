@@ -4,7 +4,8 @@
   "description": "A node js project that store messages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testmocha": "mocha test/bootstrap.test.js test/backend/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,19 @@
   },
   "homepage": "https://github.com/jaget/nodejs-message-store#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
     "gulp": "^3.9.1",
     "mocha": "^3.0.1",
+    "request": "^2.74.0",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "finalhandler": "^0.5.0",
+    "lodash": "^4.15.0",
+    "lowdb": "^0.13.1",
+    "router": "^1.1.4",
+    "uuid": "^2.0.2"
   }
 }
